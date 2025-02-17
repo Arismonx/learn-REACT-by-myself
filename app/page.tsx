@@ -1,21 +1,14 @@
-import Gellery from "./ui/Gellery";
-import { Profile } from "./ui/Gellery";
+// import Gellery from "./ui/Gellery";
+// import { Profile } from "./ui/Gellery";
+// import PP sfrom "./ui/Pp";
+// import Avatar from "./ui/Avatar";
+import Braces from "./ui/Bb";
 
 export default function Home() {
 
   return (
     <>
-      <h1>Hedy Lamarr's Todos</h1>
-      <img
-        src="https://i.imgur.com/yXOvdOSs.jpg"
-        alt="Hedy Lamarr"
-        className="photo"
-      />
-      <ul>
-        <li>Invent new traffic lights</li>
-        <li>Rehearse a movie scene</li>
-        <li>Improve the spectrum technology</li>
-      </ul>
+      <Braces />
     </>
   );
 }
