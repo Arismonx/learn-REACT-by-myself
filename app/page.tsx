@@ -6,7 +6,8 @@
 // import Profile from "./ui/Profile";
 // import Condition from "./ui/condition";
 // import PackingList from "./ui/PackingList";
-import DrinkList from "./ui/DrinkList";
+// import DrinkList from "./ui/DrinkList";
+import List from './ui/List'
 
 export default function Home() {
 
@@ -15,7 +16,8 @@ export default function Home() {
       {/* <Avatar /> */}
       {/* <Condition /> */}
       {/* <PackingList /> */}
-      <DrinkList />
+      {/* <DrinkList /> */}
+      <List />
     </>
   );
 }
