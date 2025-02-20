@@ -1,13 +1,13 @@
-const Item =({name,importance}:{
-    name:string
-    importance:number
-})=>{
+const Item = ({ name, importance }: {
+    name: string
+    importance: number
+}) => {
     return (
         <>
             <li className="item">
                 {name}
                 {importance > 0 && ''}
-                {importance > 0 && 
+                {importance > 0 &&
                     <i>(Importance: {importance})</i>
                 }
             </li>

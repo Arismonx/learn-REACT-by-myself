@@ -1,4 +1,4 @@
-export function getImageURL({person, size = 's'}:{
+export function getImageURL({person}:{
     person:{
         imageId:string
     };
@@ -6,8 +6,7 @@ export function getImageURL({person, size = 's'}:{
 }) {
     return (
         'https://i.imgur.com/' +
-        person.imageId +
-        size +
+        person.imageId + 
         '.jpg'
     );
 }

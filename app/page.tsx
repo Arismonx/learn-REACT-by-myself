@@ -1,13 +1,17 @@
-// import Gellery from "./ui/Gellery";
-// import { Profile } from "./ui/Gellery";
-// import PP sfrom "./ui/Pp";
-// import Avatar from "./ui/Avatar";
-// import Braces from "./ui/Bb";
-// import Profile from "./ui/Profile";
-// import Condition from "./ui/condition";
-// import PackingList from "./ui/PackingList";
-// import DrinkList from "./ui/DrinkList";
-import List from './ui/List'
+// import Gellery from "./ex/Gellery";
+// import { Profile } from "./ex/Gellery";
+// import PP sfrom "./ex/Pp";
+// import Avatar from "./ex/Avatar";
+// import Braces from "./ex/Bb";
+// import Profile from "./ex/Profile";
+// import Condition from "./ex/condition";
+// import PackingList from "./ex/PackingList";
+// import DrinkList from "./ex/DrinkList";
+// import List from './ex/List'
+import Poem from "./ex/Poem";
+
+// import Recipes from "./ex/recipes";
+Poem
 
 export default function Home() {
 
@@ -17,7 +21,9 @@ export default function Home() {
       {/* <Condition /> */}
       {/* <PackingList /> */}
       {/* <DrinkList /> */}
-      <List />
+      {/* <List /> */}
+      {/* <Recipes /> */}
+      <Poem />
     </>
   );
 }
