@@ -8,10 +8,11 @@
 // import PackingList from "./ex/PackingList";
 // import DrinkList from "./ex/DrinkList";
 // import List from './ex/List'
-import Poem from "./ex/Poem";
+// import Poem from "./ex/Poem";
+// import Settime from "./ex/SetTime";
+import Show_Profile_1 from './ex/Show_Profile_1'
 
 // import Recipes from "./ex/recipes";
-Poem
 
 export default function Home() {
 
@@ -23,7 +24,9 @@ export default function Home() {
       {/* <DrinkList /> */}
       {/* <List /> */}
       {/* <Recipes /> */}
-      <Poem />
+      {/* <Poem /> */}
+      {/* <Settime /> */}
+      <Show_Profile_1 />
     </>
   );
 }
